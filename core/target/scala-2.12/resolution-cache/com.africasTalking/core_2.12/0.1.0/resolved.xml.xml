@@ -4,7 +4,7 @@
 		module="core_2.12"
 		revision="0.1.0"
 		status="integration"
-		publication="20181031163142"
+		publication="20181101130320"
 	>
 		<description>
 		core
@@ -40,5 +40,7 @@
 		<dependency org="com.typesafe.akka" name="akka-http-testkit_2.12" rev="10.1.5" conf="test->default(compile)"/>
 		<dependency org="io.spray" name="spray-json_2.12" rev="1.3.4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-http-spray-json_2.12" rev="10.1.5" conf="compile->default(compile)"/>
+		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.5" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

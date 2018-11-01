@@ -1,4 +1,5 @@
-package com.africasTalking.Lunch_System.core.db
+package com.africasTalking.Lunch_System.core
+package db
 
 class DBRequestServices {
 

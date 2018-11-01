@@ -1,18 +1,24 @@
-package com.africasTalking.Lunch_System.web
-
-import spray.json._
-import akka.http.scaladsl.Http
-import akka.http.scaladsl.marshalling.Marshal
-import akka.http.scaladsl.model._
-import akka.http.scaladsl.unmarshalling.Unmarshal
-import com.africasTalking.Lunch_System.core.utils.CoreServices
-import com.africasTalking.Lunch_System.lunch.marshalling.WebJsonImplicits
+package com.africasTalking.Lunch_System
+package web
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
 
-object Client extends App with CoreServices with WebJsonImplicits {
-  //First Request
+import akka.http.scaladsl.Http
+import akka.http.scaladsl.marshalling.Marshal
+import akka.http.scaladsl.model._
+import akka.http.scaladsl.unmarshalling.Unmarshal
+
+import com.africasTalking.Lunch_System.core.utils.CoreServices
+import com.africasTalking.Lunch_System.lunch.LunchRequestGateway.ATPaymentServiceResponse
+import com.africasTalking.Lunch_System.lunch.marshalling.WebJsonImplicits
+
+object Client extends App
+    with CoreServices
+    with WebJsonImplicits {
+
+  import system.dispatcher
+
   val responseFut = Http().singleRequest(
     HttpRequest(
       uri = Uri("http://localhost:3306/list")
@@ -24,7 +30,6 @@ object Client extends App with CoreServices with WebJsonImplicits {
     case Failure(error) => println(s"Error Encountered: $error")
   }
 
-  //Second Request
   import com.africasTalking.Lunch_System.lunch.LunchRequestService._
 
   private var total: Double = 0
@@ -77,7 +82,7 @@ object Client extends App with CoreServices with WebJsonImplicits {
   postProceedReq onComplete {
     case Failure(ex) => println(s"Failed to post. Reason: $ex")
     case Success(response) => {
-      val res: Future[ProceedServiceResponse] = Unmarshal(response.entity).to[ProceedServiceResponse]
+      val res: Future[ATPaymentServiceResponse] = Unmarshal(response.entity).to[ATPaymentServiceResponse]
       res onComplete {
         case Success(value) =>
           value.status match {

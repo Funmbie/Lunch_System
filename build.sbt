@@ -10,7 +10,8 @@ lazy val sharedSettings = Seq(
   scalaVersion := "2.12.6",
   resolvers ++= Seq(
     "rediscala" at "http://dl.bintray.com/etaty/maven",
-    "Typesafe repository releases" at "http://repo.typesafe.com/typesafe/releases/"
+    "Typesafe repository releases" at "http://repo.typesafe.com/typesafe/releases/",
+    "Artima Maven Repository" at "http://repo.artima.com/releases"
   ),
   scalacOptions ++= Seq(
     "-deprecation",
@@ -30,8 +31,9 @@ lazy val core = (project in file("core")).settings(sharedSettings,
     "com.typesafe.akka" %% "akka-http" % "10.1.5",
     "com.typesafe.akka" %% "akka-http-testkit" % "10.1.5" % Test,
     "io.spray" %%  "spray-json" % "1.3.4",
-    "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.5"
+    "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.5",
+    "org.scalatest" %% "scalatest" % "3.0.5" % "test"
   )
 )
-lazy val lunch = (project in file("lunch")).settings(sharedSettings).dependsOn(core)
-lazy val web = (project in file("web")).settings(sharedSettings).dependsOn(lunch)
+lazy val lunch = (project in file("lunch")).dependsOn(core).settings(sharedSettings)
+lazy val web = (project in file("web")).dependsOn(lunch).settings(sharedSettings)

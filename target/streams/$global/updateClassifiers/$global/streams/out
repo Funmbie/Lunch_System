@@ -282,11 +282,11 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 201ms :: artifacts dl 5ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
+[debug] :: resolution report :: resolve 53ms :: artifacts dl 5ms
 [debug] 	report for revisedlunchsystem#revisedlunchsystem$sources;0.1 compile produced in /home/funmbi/Downloads/Lunch_System/target/scala-2.12/resolution-cache/reports/revisedlunchsystem-revisedlunchsystem$sources-compile.xml
 [debug] 	report for revisedlunchsystem#revisedlunchsystem$sources;0.1 runtime produced in /home/funmbi/Downloads/Lunch_System/target/scala-2.12/resolution-cache/reports/revisedlunchsystem-revisedlunchsystem$sources-runtime.xml
 [debug] 	report for revisedlunchsystem#revisedlunchsystem$sources;0.1 test produced in /home/funmbi/Downloads/Lunch_System/target/scala-2.12/resolution-cache/reports/revisedlunchsystem-revisedlunchsystem$sources-test.xml
@@ -298,4 +298,4 @@
 [debug] 	report for revisedlunchsystem#revisedlunchsystem$sources;0.1 plugin produced in /home/funmbi/Downloads/Lunch_System/target/scala-2.12/resolution-cache/reports/revisedlunchsystem-revisedlunchsystem$sources-plugin.xml
 [debug] 	report for revisedlunchsystem#revisedlunchsystem$sources;0.1 pom produced in /home/funmbi/Downloads/Lunch_System/target/scala-2.12/resolution-cache/reports/revisedlunchsystem-revisedlunchsystem$sources-pom.xml
 [debug] 	report for revisedlunchsystem#revisedlunchsystem$sources;0.1 scala-tool produced in /home/funmbi/Downloads/Lunch_System/target/scala-2.12/resolution-cache/reports/revisedlunchsystem-revisedlunchsystem$sources-scala-tool.xml
-[debug] 	resolve done (201ms resolve - 5ms download)
+[debug] 	resolve done (53ms resolve - 5ms download)

@@ -5,13 +5,14 @@
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for com.africasTalking#core$sources;0.1.0 [compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.6
 [debug] 	found org.scala-lang#scala-library;2.12.6 in sbt-chain
 [debug] 	[2.12.6] org.scala-lang#scala-library;2.12.6
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -24,6 +25,21 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.5 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.0.5
+[debug] 	found org.scalactic#scalactic_2.12;3.0.5 in sbt-chain
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: io.spray#spray-json_2.12;1.3.4 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: io.spray#spray-json_2.12;1.3.4
@@ -195,6 +211,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.6
+[debug] 	found org.scala-lang#scala-reflect;2.12.6 in sbt-chain
+[debug] 	[2.12.6] org.scala-lang#scala-reflect;2.12.6
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.12;0.8.0
@@ -213,6 +241,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -225,6 +254,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->compile]
@@ -353,6 +394,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
@@ -365,6 +414,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -377,6 +427,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->compile]
@@ -505,6 +567,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
@@ -521,6 +591,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -533,6 +604,22 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->compile]
@@ -665,6 +752,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master(compile)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
@@ -677,6 +772,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -689,6 +785,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->compile]
@@ -817,6 +925,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
@@ -825,10 +941,26 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.5
+[debug] 	found org.scalatest#scalatest_2.12;3.0.5 in sbt-chain
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->compile]
@@ -861,6 +993,22 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-http-testkit_2.12;10.1.5 [test->default]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http-testkit_2.12;10.1.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-testkit_2.12;10.1.5
@@ -901,6 +1049,17 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
@@ -1029,6 +1188,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
@@ -1048,6 +1215,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -1060,6 +1228,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->compile]
@@ -1188,6 +1368,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
@@ -1202,6 +1390,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->compile]
@@ -1214,6 +1403,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile-internal->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile-internal->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile-internal->compile]
@@ -1342,6 +1543,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->compile]
@@ -1358,6 +1567,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -1370,6 +1580,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->compile]
@@ -1498,6 +1720,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
@@ -1510,6 +1740,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -1522,6 +1753,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->compile]
@@ -1650,6 +1893,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
@@ -1663,6 +1914,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile]
@@ -1675,6 +1927,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime-internal->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime-internal->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime-internal->compile]
@@ -1803,6 +2067,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->compile]
@@ -1820,6 +2092,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile]
@@ -1832,6 +2105,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [compile->compile]
@@ -1960,6 +2245,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [compile->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [compile->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
@@ -1972,6 +2265,7 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile]
@@ -1984,6 +2278,18 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->io.spray#spray-json_2.12;1.3.4 [runtime->compile]
@@ -2112,6 +2418,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [runtime->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
@@ -2120,10 +2434,23 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test->compile]
@@ -2152,6 +2479,22 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-http-testkit_2.12;10.1.5 [test->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-http-testkit_2.12;10.1.5 [test->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-http-testkit_2.12;10.1.5 [test->compile]
@@ -2188,6 +2531,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
@@ -2312,6 +2663,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
@@ -2322,10 +2681,23 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->master]
 [debug] == resolving dependencies for com.africasTalking#core$sources;0.1.0 [optional]
 [debug] == resolving dependencies for com.africasTalking#core$sources;0.1.0 [provided]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalatest#scalatest_2.12;3.0.5 [test-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->master(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
@@ -2354,6 +2726,22 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test-internal->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream-testkit_2.12;2.5.16 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->default]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-http-testkit_2.12;10.1.5 [test-internal->default]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-http-testkit_2.12;10.1.5 [test-internal->runtime]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-http-testkit_2.12;10.1.5 [test-internal->compile]
@@ -2390,6 +2778,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.reactivestreams#reactive-streams;1.0.2 [test-internal->compile]
@@ -2514,6 +2910,14 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test-internal->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->com.typesafe.akka#akka-stream_2.12;2.5.16 [test-internal->master]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->master(compile)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->runtime]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->compile]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->compile(*)]
+[debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [test-internal->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->compile]
@@ -2556,9 +2960,6 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-compiler;2.12.6 [scala-tool->optional(default)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-compiler;2.12.6 [scala-tool->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
-[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
@@ -2574,10 +2975,6 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->jline#jline;2.14.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->jline#jline;2.14.6 [scala-tool->master]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master(*)]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.6
-[debug] 	found org.scala-lang#scala-reflect;2.12.6 in sbt-chain
-[debug] 	[2.12.6] org.scala-lang#scala-reflect;2.12.6
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [scala-tool->compile]
@@ -2587,265 +2984,217 @@
 [debug] == resolving dependencies com.africasTalking#core$sources;0.1.0->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.4!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.4!spray-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-testkit_2.12;10.1.5!akka-http-testkit_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.4!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.16!akka-protobuf_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
+[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
+[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
+[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.5!akka-http-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.16!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream-testkit_2.12;2.5.16!akka-stream-testkit_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.5!akka-http_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.16!akka-actor_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.16!akka-stream_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.5!akka-http-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-spray-json_2.12;10.1.5!akka-http-spray-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.12;2.5.16!akka-testkit_2.12.jar(src)
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.12;2.5.16!akka-testkit_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.16!akka-protobuf_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.5!akka-parsing_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.5!akka-http_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.16!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-testkit_2.12;10.1.5!akka-http-testkit_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream-testkit_2.12;2.5.16!akka-stream-testkit_2.12.jar(src)
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (34ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/funmbi/.ivy2/cache
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
-[debug] settings loaded (40ms)
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] no default cache defined: set to /home/funmbi/.ivy2/cache
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (44ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /home/funmbi/.ivy2/cache
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (90ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
 [debug] no default ivy user dir defined: set to /home/funmbi/.ivy2
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (94ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (67ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] settings loaded (63ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (151ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (140ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (152ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] no default cache defined: set to /home/funmbi/.ivy2/cache
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (91ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (70ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (88ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (117ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (69ms)
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (94ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (116ms)
+[debug] settings loaded (157ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (119ms)
+[debug] settings loaded (132ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2855,9 +3204,11 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] no default cache defined: set to /home/funmbi/.ivy2/cache
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (131ms)
+[debug] no default cache defined: set to /home/funmbi/.ivy2/cache
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (166ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2866,20 +3217,8 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (109ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (97ms)
+[debug] settings loaded (183ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2889,19 +3228,54 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (74ms)
-[debug] 	default cache: /home/funmbi/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (176ms)
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (177ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (179ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (58ms)
+[debug] settings loaded (148ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (154ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2910,7 +3284,7 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (116ms)
+[debug] settings loaded (134ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2919,7 +3293,7 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (52ms)
+[debug] settings loaded (167ms)
 [debug] 	default cache: /home/funmbi/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2928,7 +3302,80 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] :: resolution report :: resolve 1338ms :: artifacts dl 208ms
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/funmbi/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (186ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (222ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (205ms)
+[debug] settings loaded (151ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (152ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (148ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (86ms)
+[debug] 	default cache: /home/funmbi/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] :: resolution report :: resolve 1370ms :: artifacts dl 340ms
 [debug] 	report for com.africasTalking#core$sources;0.1.0 compile produced in /home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/resolution-cache/reports/com.africasTalking-core$sources-compile.xml
 [debug] 	report for com.africasTalking#core$sources;0.1.0 runtime produced in /home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/resolution-cache/reports/com.africasTalking-core$sources-runtime.xml
 [debug] 	report for com.africasTalking#core$sources;0.1.0 test produced in /home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/resolution-cache/reports/com.africasTalking-core$sources-test.xml
@@ -2940,4 +3387,4 @@
 [debug] 	report for com.africasTalking#core$sources;0.1.0 plugin produced in /home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/resolution-cache/reports/com.africasTalking-core$sources-plugin.xml
 [debug] 	report for com.africasTalking#core$sources;0.1.0 pom produced in /home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/resolution-cache/reports/com.africasTalking-core$sources-pom.xml
 [debug] 	report for com.africasTalking#core$sources;0.1.0 scala-tool produced in /home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/resolution-cache/reports/com.africasTalking-core$sources-scala-tool.xml
-[debug] 	resolve done (1338ms resolve - 208ms download)
+[debug] 	resolve done (1370ms resolve - 340ms download)
