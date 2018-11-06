@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/funmbi/Downloads/Lunch_System/core/src/main/resources/environment.conf,/home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/classes/environment.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/funmbi/Downloads/Lunch_System/core/src/main/resources/logback.xml,/home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/funmbi/Downloads/Lunch_System/core/src/main/resources/application.conf,/home/funmbi/Downloads/Lunch_System/core/target/scala-2.12/classes/application.conf)[0m

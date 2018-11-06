@@ -2,12 +2,13 @@ package com.africasTalking.Lunch_System
 package lunch
 
 import scala.concurrent.duration._
+import scala.concurrent.ExecutionContext.Implicits.global
 
 import akka.actor.{Actor, ActorLogging, Props}
 import akka.pattern.{ask, pipe}
 import akka.util.Timeout
 
-import com.africasTalking.Lunch_System.core.utils.{CoreServices, LunchConfig}
+import com.africasTalking.Lunch_System.core.utils.LunchConfig
 import com.africasTalking.Lunch_System.lunch.LunchRequestGateway.ATPaymentServiceResponse
 
 object LunchRequestService {
@@ -26,17 +27,16 @@ object LunchRequestService {
    )
 }
 
-class LunchRequestService extends Actor
-  with ActorLogging
-  with CoreServices{
+class LunchRequestService extends Actor with ActorLogging {
 
   import LunchRequestService._
   import com.africasTalking.Lunch_System.core.db.DBRequestServices
 
-  import system.dispatcher
 
-  implicit val timeout:Timeout = Timeout(LunchConfig.timeout seconds)
-  val dbRef = new DBRequestServices
+  implicit val timeout:Timeout  = Timeout(LunchConfig.timeout seconds)
+
+  val lunchRequestGateway       = context.actorOf(Props[LunchRequestGateway])
+  val dbRef                     = new DBRequestServices
 
   def receive: Receive = {
     case ListServiceRequest                         =>
@@ -54,7 +54,6 @@ class LunchRequestService extends Actor
 
     case req:ProceedServiceRequest                  =>
       val senderObject        = sender()
-      val lunchRequestGateway = system.actorOf(Props[LunchRequestGateway])
       (lunchRequestGateway ? req).mapTo[ATPaymentServiceResponse] pipeTo senderObject
   }
 }

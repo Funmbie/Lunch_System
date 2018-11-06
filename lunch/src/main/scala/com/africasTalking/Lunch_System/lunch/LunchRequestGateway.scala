@@ -1,6 +1,7 @@
 package com.africasTalking.Lunch_System
 package lunch
 
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.{Failure, Success}
 
 import akka.actor.{Actor, ActorLogging}
@@ -8,10 +9,12 @@ import akka.http.scaladsl.Http
 import akka.http.scaladsl.marshalling.Marshal
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.unmarshalling.Unmarshal
+import akka.stream.ActorMaterializer
 
 import com.africasTalking.Lunch_System.core.utils._
 import com.africasTalking.Lunch_System.lunch.LunchRequestGateway._
 import com.africasTalking.Lunch_System.lunch.marshalling.WebJsonImplicits
+
 
 object LunchRequestGateway{
   case class LunchServiceRequest(amount:Double,number:String)
@@ -34,10 +37,11 @@ object LunchRequestGateway{
 
 class LunchRequestGateway extends Actor
     with ActorLogging
-    with CoreServices
     with WebJsonImplicits{
 
-  import system.dispatcher
+  implicit val actorSystem      = context.system
+  implicit val materializer     = ActorMaterializer()
+
 
   def receive: Receive = {
     case req: LunchServiceRequest  =>

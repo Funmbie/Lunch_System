@@ -1,10 +1,8 @@
 package com.africasTalking.Lunch_System.core
 package utils
 
-import akka.actor.ActorSystem
-import akka.stream.ActorMaterializer
+import akka.actor.ActorRefFactory
 
-trait CoreServices{
-  implicit val system = ActorSystem()
-  implicit val materializer = ActorMaterializer()
+trait CoreServices {
+  def actorRefFactory:ActorRefFactory
 }
