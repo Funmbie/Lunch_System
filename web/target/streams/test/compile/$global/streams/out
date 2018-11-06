@@ -1,8 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/funmbi/Downloads/Lunch_System/web/src/test/scala/com/africasTalking/Lunch_System/web/WebServiceSpec.scala:10:7: class WebServiceSpec inherits conflicting members:[0m
-[0m[[0m[31merror[0m] [0m[0m  value system in trait RouteTest of type akka.actor.ActorSystem  and[0m
-[0m[[0m[31merror[0m] [0m[0m  value system in trait CoreServices of type akka.actor.ActorSystem[0m
-[0m[[0m[31merror[0m] [0m[0m(Note: this can be resolved by declaring an override in class WebServiceSpec.);[0m
-[0m[[0m[31merror[0m] [0m[0m other members with override errors are: materializer[0m
-[0m[[0m[31merror[0m] [0m[0mclass WebServiceSpec extends WordSpec[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,9 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/funmbi/Downloads/Lunch_System/lunch/src/main/scala/com/africasTalking/Lunch_System/lunch/LunchRequestService.scala:38:62: postfix operator seconds should be enabled[0m
-[0m[[0m[33mwarn[0m] [0m[0mby making the implicit value scala.language.postfixOps visible.[0m
-[0m[[0m[33mwarn[0m] [0m[0mThis can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
-[0m[[0m[33mwarn[0m] [0m[0mor by setting the compiler option -language:postfixOps.[0m
-[0m[[0m[33mwarn[0m] [0m[0mSee the Scaladoc for value scala.language.postfixOps for a discussion[0m
-[0m[[0m[33mwarn[0m] [0m[0mwhy the feature should be explicitly enabled.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  implicit val timeout:Timeout = Timeout(LunchConfig.timeout seconds)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
