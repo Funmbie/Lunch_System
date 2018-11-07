@@ -1,11 +1,14 @@
-package com.africasTalking.Lunch_System.web
+package com.africasTalking.Lunch_System
+package web
 
 import scala.concurrent.duration._
 import scala.language.postfixOps
-import akka.actor.{ActorSystem, Props}
+
+import akka.actor.Props
 import akka.pattern.ask
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
+
 import com.africasTalking.Lunch_System.core.utils.{CoreServices, LunchConfig}
 import com.africasTalking.Lunch_System.lunch.LunchRequestGateway.ATPaymentServiceResponse
 import com.africasTalking.Lunch_System.lunch.LunchRequestService
