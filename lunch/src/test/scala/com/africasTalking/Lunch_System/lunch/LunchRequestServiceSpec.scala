@@ -1,13 +1,14 @@
-package com.africasTalking.Lunch_System.lunch
+package com.africasTalking.Lunch_System
+package lunch
 
 import scala.concurrent.duration._
+
 import akka.actor.{ActorSystem, Props}
-import akka.http.scaladsl.testkit.RouteTestTimeout
-import akka.pattern.ask
 import akka.testkit.{ImplicitSender, TestKit}
 import akka.util.Timeout
+
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
-import com.africasTalking.Lunch_System.lunch.LunchRequestGateway.ATPaymentServiceResponse
+
 import com.africasTalking.Lunch_System.lunch.LunchRequestService._
 
 class LunchRequestServiceSpec extends TestKit(ActorSystem("LunchRequestServiceSpec"))
@@ -28,7 +29,7 @@ class LunchRequestServiceSpec extends TestKit(ActorSystem("LunchRequestServiceSp
 
     "Respond with an OrderService Response when given an OrderService Request" in{
       lunchServiceActor ! OrderServiceRequest(List("Chicken","Rice","Spaghetti","Beans"))
-      expectMsg(OrderServiceResponse(360))
+      expectMsg(OrderServiceResponse(300))
     }
   }
 }

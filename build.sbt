@@ -4,6 +4,8 @@ version := "0.1"
 
 scalaVersion := "2.12.7"
 
+enablePlugins(JavaAppPackaging,JavaServerAppPackaging,sbtdocker.DockerPlugin,DockerComposePlugin)
+
 lazy val sharedSettings = Seq(
   organization := "com.africasTalking",
   version      := "0.1.0",
